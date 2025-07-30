@@ -1,0 +1,4 @@
+def train_model():
+    for epoch in range(10):
+        print(f"Training epoch {epoch}")
+        # Training logic
