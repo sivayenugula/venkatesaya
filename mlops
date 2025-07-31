@@ -1,4 +1,4 @@
-def train_model():
+'''def train_model():
     for epoch in range(10):
         print(f"Training epoch {epoch}")
         # Training logic
@@ -8,4 +8,18 @@ b = int(a)  # b = 123
 f = 3.14
 s = str(f)  # s = '3.14'
 
-lst = list("abc")  # ['a', 'b', 'c']
+lst = list("abc")  # ['a', 'b', 'c'] '''
+a = float(input("Enter first number: "))
+op = input("Enter operator (+ - * /): ")
+b = float(input("Enter second number: "))
+
+if op == '+':
+    print(a + b)
+elif op == '-':
+    print(a - b)
+elif op == '*':
+    print(a * b)
+elif op == '/':
+    print(a / b)
+else:
+    print("Invalid operator")
