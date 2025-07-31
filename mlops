@@ -2,3 +2,10 @@ def train_model():
     for epoch in range(10):
         print(f"Training epoch {epoch}")
         # Training logic
+a = "123"
+b = int(a)  # b = 123
+
+f = 3.14
+s = str(f)  # s = '3.14'
+
+lst = list("abc")  # ['a', 'b', 'c']
